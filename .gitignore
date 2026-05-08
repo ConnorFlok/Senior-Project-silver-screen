@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.local
+.DS_Store
+
+# ML artifacts too large for GitHub (regenerate with: cd backend && python3 train.py)
+backend/artifacts/cosine_topk_index.json
+backend/artifacts/tfidf_matrix.npz
+backend/artifacts/tfidf_vectorizer.pkl
+backend/artifacts/kmeans.pkl
+backend/artifacts/scaler.pkl
+backend/artifacts/title_to_index.json
+backend/artifacts/index_to_movie_id.json
+backend/artifacts/movie_ml.parquet
+backend/artifacts/movies_metadata.parquet
+
+# Logs and cache
+backend/server.log
+backend/train.log
+backend/__pycache__/
