@@ -19,3 +19,6 @@ backend/artifacts/movies_metadata.parquet
 backend/server.log
 backend/train.log
 backend/__pycache__/
+
+# Vite temp files
+vite.config.js.timestamp-*
